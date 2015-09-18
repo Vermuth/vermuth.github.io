@@ -155,7 +155,7 @@ span.menu{
 .callbacks_tabs{
 	list-style: none;
 	position: absolute;
-	top: 61%;
+	top: 91%;
 	z-index: 999;
 	right: 48%;
 	padding: 0;
@@ -264,7 +264,7 @@ span.menu{
 	float:right;
 	width:78%;
 }
-.grid-info h3{
+.grid-info h4{
 	margin:0;
 	padding:0 0 0.4em 0;
 	text-transform:uppercase;
