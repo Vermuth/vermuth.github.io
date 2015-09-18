@@ -400,9 +400,13 @@ a.port-btn:hover{
 .cars-support-list li {
 	display: inline-block;
 	margin: 10px;
+	max-width: 50px;
+	vertical-align: top;
+	text-align: center;
 }
-cars-support-list h4 {
-	font-size: 18px;
+.cars-support-list h4 {
+	font-size: 0.75em;
+
 }
 .car-head h3{
 	font-weight: 700;
