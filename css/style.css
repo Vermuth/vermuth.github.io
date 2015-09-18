@@ -28,6 +28,10 @@ body input[type="text"],body input[type="submit"],body textarea{
 .header {
 	padding: 0.8em 0;
 	border-bottom: 1px solid #EEE;
+	position: fixed;
+	background: #fff;
+	z-index: 9999;
+	width: 100%;
 }
 .logo{
 	float: left;
