@@ -449,6 +449,26 @@ a.team-btn:hover{
 	border-color:#c1061b;
 	color:#c1061b;
 }
+
+/*-- contacts --*/
+
+.contacts {
+	/*padding:  3.8em;*/
+	padding: 1.8em 0 5em 0;
+}
+.contacts-text h3 {
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+.contacts-info {
+	float: right;
+	width: 50%;
+}
+.contacts-map {
+	float: left;
+}
+
 /*-- footer --*/
 .footer{
 	background:#252525;
