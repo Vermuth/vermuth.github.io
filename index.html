@@ -11,6 +11,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<title>ЧИП ТЮНИНГ | Ремонт</title>
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<script src="js/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		<script src="js/responsiveslides.js"></script>
 		 <!-- Custom Theme files -->
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
    		 <!-- Custom Theme files -->
@@ -37,7 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul>
 						<li class="active"><a href="index.html">Главная</a></li>
 						<li><a href="#">О нас</a></li>
-						<li><a href="#">Услуги</a></li>
+						<li><a href="#service">Услуги</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Контакты</a></li>
 						<div class="clearfix"> </div>
@@ -50,33 +52,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 			<!-- banner -->
 			<div class="benner">
-				<!-- slider -->
-				<!--- img-slider --->
-				<div class="img-slider">
-						<!----start-slider-script---->
-					<script src="js/responsiveslides.min.js"></script>
-					 <script>
-					    // You can also use "$(window).load(function() {"
-					    $(function () {
-					      // Slideshow 4
-					      $("#slider4").responsiveSlides({
-					        auto: true,
-					        pager: true,
-					        nav: true,
-					        speed: 500,
-					        namespace: "callbacks",
-					        before: function () {
-					          $('.events').append("<li>before event fired.</li>");
-					        },
-					        after: function () {
-					          $('.events').append("<li>after event fired.</li>");
-					        }
-					      });
-					
-					    });
-					  </script>
-					<!----//End-slider-script---->
-					<!-- Slideshow 4 -->
 					    <div  id="top" class="callbacks_container">
 					      <ul class="rslides" id="slider4">
 					        <li>
@@ -110,7 +85,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="top-grids">
 						<div class="container">
 						<div class="top-grids-head text-center">
-							<h2>Наши услуги</h2>
+							<h2 id='service'>Наши услуги</h2>
 							<p>Praesent sem risus, posuere ut turpis in, facilisis aliquet metus. Sed efficitur cursus nibh</p>
 						</div>
 							<div class="col-md-4">
