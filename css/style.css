@@ -415,30 +415,26 @@ a.port-btn:hover{
 	margin:0 auto;
 	padding:1.5em 0 0 0;
 }
-.team-grids-caption{
+.support-car-caption{
 	background:#f2f2f2;
-	padding:1.5em 0;
+	padding: 3.8em 0 5em 0;
 }
-.team-grids-caption-left{
-	float: left;
-	width: 77%;
-	margin-top: 0.38em;
+.cars-support-list {
+	list-style: none;
 }
-.team-grids-caption-right{
-	float:right;
-	width:20%;
+.cars-support-list li {
+	display: inline-block;
+	margin: 10px;
 }
-.team-grids-caption-left h4{
-	color:#0b0b0d;
-	font-weight:700;
-	font-size:1.3em;
-	margin:0;
-	padding:0 0 0.3em 0;
+cars-support-list h4 {
+	font-size: 18px;
 }
-.team-grids-caption-left p{
-	margin:0;
-	padding:0;
-	color:#777;
+.car-head h3{
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0b0b0d;
+	margin: 0;
+	padding: 0 0 0.5em 0;
 }
 a.team-btn{
 	border:2px solid #0b0b0d;
