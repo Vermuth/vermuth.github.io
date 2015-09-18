@@ -290,36 +290,11 @@ span.menu{
 .portfolio-grids div.col-md-3{
 	padding:0;
 }
-.portfolio-caption{
-	position:absolute;
-	top:0px;
-	bottom:0;
-	width:100%;
-	padding:1em;
-	background: rgba(193, 6, 27, 0.52);
-	display:none;
-	text-align:center;
-}
-.portfolio-caption h4{
-	color:#FFF;
-	text-transform:uppercase;
-}
-.portfolio-caption p{
-	color:#FFF;
-	width:70%;
-	margin:0 auto;
-}
 .portfolio-grid{
 	position:relative;
 }
 .portfolio-grid:hover div.portfolio-caption{
 	display:block;
-}
-.portfolio-caption a span.link{
-	width:64px;
-	height:64px;
-	display:inline-block;
-	background:url(../images/link.png) no-repeat 0px 0px;
 }
 .portfoliogrids-caption{
 	background:#c1061b;
