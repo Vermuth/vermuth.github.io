@@ -196,7 +196,7 @@ span.menu{
 	top: 0;
 	z-index: 999;
 	left:6%;
-	top: 36%;
+	top: 73%;
 }
 .slider-caption h1{
 	font-weight: 700;
@@ -892,6 +892,9 @@ a.home-btn:hover {
 	}
 	.logo {
 		margin-top: 0em;
+	}
+	.logo span {
+		
 	}
 	.header {
 		padding: 1.2em 0;
