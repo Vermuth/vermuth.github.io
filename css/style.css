@@ -434,6 +434,11 @@ a.news-btn:hover{
 .contacts {
 	padding: 1.8em 0 5em 0;
 }
+
+.contacts-grid {
+	padding-top: 1em;
+}
+
 .contacts-text h3 {
  text-transform: uppercase;
  font-weight: bold;
@@ -571,60 +576,7 @@ a.news-btn:hover{
 .footer-bottom-right ul li a:hover{
 	color:#6E6C6C;
 }
-/*-- aboutus --*/
-.about{
-	min-height:750px;
-}
-.about-left{
-	
-}
-.about-left h1{
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #0b0b0d;
-	margin: 0;
-	padding: 0 0 0.5em 0;
-	font-size:1.5em;
-}
-.about-left p{
-	color: #777;
-	font-size: 0.875em;
-	line-height: 1.8em;
-}
-.about-grids{
-	padding:1.5em 0;
-}
-.about-left ul{
-	margin:0 0 0.8em 3em;
-	padding:0;
-}
-.about-left ul li{
-	display:block;
-}
-.about-left ul li a{
-	color: #777;
-	text-decoration:none;
-	padding:0.3em 0;
-	display:block;
-}
-.about-left ul li a:hover{
-	color:#c1061b;
-}
-.about-left ul li a span{
-	width:8px;
-	height:8px;
-	display:inline-block;
-	background:url(../images/arrow.png) no-repeat 0px 0px;
-	margin-right:0.5em;
-}
-.about-left h2{
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #0b0b0d;
-	margin: 0;
-	padding: 0 0 0.5em 0;
-	font-size:1.3em;
-}
+
 .news-grid{
 	margin-top: 0.7em;
 }
@@ -699,41 +651,7 @@ a.news-btn:hover{
 	line-height: 1.8em;
 	margin: 0.5em 0 0.8em 0;
 }
-a.more-btn{
-	border: 2px solid #0b0b0d;
-	text-transform: uppercase;
-	padding: 0.5em 1.2em;
-	font-size:0.875em;
-	margin-top: 0.4em;
-	display: inline-block;
-	color: #0b0b0d;
-	text-decoration: none;
-}
-a.more-btn:hover{
-	border-color:#c1061b;
-	color:#c1061b;
-}
-ul.pagenation{
-	margin:2em  0 5em 0;
-	padding:0;
-}
-ul.pagenation li{
-	display:inline-block;
-}
-ul.pagenation li a{
-	border: 2px solid #0b0b0d;
-	text-transform: uppercase;
-	padding: 0.5em 1.2em;
-	font-size:0.875em;
-	margin-top: 0.4em;
-	display: inline-block;
-	color: #0b0b0d;
-	text-decoration: none;
-}
-ul.pagenation li a:hover{
-	border-color:#c1061b;
-	color:#c1061b;
-}
+
 .services-right ul li a{
 	display:block;
 }
@@ -768,37 +686,7 @@ ul.pagenation li a:hover{
 	padding: 0 0 0.9em 0;
 	font-size: 1.3em;
 }
-/*-- Products --*/
-.products{
-	padding: 1.2em 0;
-	min-height: 700px;
-}
-.products-left h1{
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #0b0b0d;
-	margin: 0;
-	padding: 0 0 0.5em 0;
-	font-size: 1.5em;
-}
-.error-page h2{
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #0b0b0d;
-	margin: 0;
-	padding: 0 0 0em 0;
-	font-size: 14em;
-}
-.error-page h2 span{
-	color:#f2f2f2;
-}
-.error-page p{
-	color:#777;
-	text-transform:uppercase;
-	font-weight:700;
-	margin:0;
-	padding:1em 0;
-}
+
 a.home-btn{
 	border: 2px solid #0b0b0d;
 	text-transform: uppercase;
