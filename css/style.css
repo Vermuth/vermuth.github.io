@@ -322,6 +322,7 @@ a.port-btn:hover{
 /*--- team ---*/
 .team{
 	padding: 3.8em 0 5em 0;
+	background: #f2f2f2;
 }
 .team-head{
 	
@@ -391,7 +392,6 @@ a.port-btn:hover{
 	padding:1.5em 0 0 0;
 }
 .support-car-caption{
-	background:#f2f2f2;
 	padding: 3.8em 0 5em 0;
 }
 .cars-support-list {
@@ -432,7 +432,6 @@ a.team-btn:hover{
 /*-- contacts --*/
 
 .contacts {
-	/*padding:  3.8em;*/
 	padding: 1.8em 0 5em 0;
 }
 .contacts-text h3 {
