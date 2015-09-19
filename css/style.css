@@ -446,10 +446,27 @@ a.news-btn:hover{
 
 .contacts-info {
 	float: right;
-	width: 50%;
+	width: 45%;
 }
 .contacts-map {
 	float: left;
+	padding-top: 1em;
+}
+
+.contact-adress {
+	display: inline-block;
+	background: url(../images/sprites.png) no-repeat 56% 0;
+	height: 30px;
+	width: 27px;
+	vertical-align: bottom;
+}
+
+.contact-phone {
+	display: inline-block;
+	background: url(../images/sprites.png) no-repeat 24% 0;
+	height: 30px;
+	width: 27px;
+	vertical-align: bottom;
 }
 
 /*-- footer --*/
@@ -894,7 +911,7 @@ a.home-btn:hover {
 		margin-top: 0em;
 	}
 	.logo span {
-		
+
 	}
 	.header {
 		padding: 1.2em 0;
