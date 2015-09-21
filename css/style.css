@@ -224,7 +224,7 @@ span.menu{
 /*-- //slider --*/
 /*-- top-grids --*/
 .top-grids{
-	padding:2em 0;	
+	padding: 3.8em 0 5em 0;	
 }
 .top-grid{
 	padding:1em 0;
@@ -328,7 +328,7 @@ a.port-btn:hover{
 .news-head{
 	
 }
-.news-head h3{
+.news-head h2{
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #0b0b0d;
@@ -433,16 +433,19 @@ a.news-btn:hover{
 /*-- contacts --*/
 
 .contacts {
-	padding: 1.8em 0 5em 0;
+	padding: 3.8em 0 5em 0;
 }
 
 .contacts-grid {
 	padding-top: 1em;
 }
 
-.contacts-text h3 {
- text-transform: uppercase;
- font-weight: bold;
+.contacts-text h2 {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0b0b0d;
+	margin: 0;
+	padding: 0 0 0.5em 0;
 }
 
 .contacts-info {
