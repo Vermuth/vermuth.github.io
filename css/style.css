@@ -26,7 +26,6 @@ body input[type="text"],body input[type="submit"],body textarea{
 }
 /*-- header --*/
 .header {
-	padding: 0.8em 0;
 	border-bottom: 1px solid #EEE;
 	position: fixed;
 	background: #fff;
@@ -42,10 +41,12 @@ span.menu{
 }
 .top-nav{
 	float:right;
+    clear: both;
 }
 .top-nav ul{
 	margin:0;
 	padding:0;
+    clear: both;
 }
 .top-nav ul li{
 	display:inline-block;
@@ -1518,4 +1519,7 @@ a.home-btn:hover {
 
 .vk_groups {
 	margin: 0 auto;
+}
+.header_phone {
+float: right; width: 400px; line-height: 21px; font-size: 18px;color: #444; text-align: left;padding: 10px 20px; font-family: Arial;
 }
