@@ -2,7 +2,7 @@
 $(function(){
   var lastId,
       topMenu = $("#top-nav"),
-      topMenuHeight = topMenu.outerHeight()+15,
+      topMenuHeight = topMenu.outerHeight()+50,
       // All list items
       menuItems = topMenu.find("a"),
       // Anchors corresponding to menu items
