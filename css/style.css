@@ -64,7 +64,7 @@ span.menu{
 }
 /*----slider----*/
 .benner{
-	padding-top: 120px;
+	padding-top: 140px;
 }
 .img-slider{
 }
@@ -206,6 +206,7 @@ span.menu{
 	margin: 0;
 	padding: 0;
 	color: #FFF;
+	background-color: darkred;
 }
 .slider-caption{
 	text-align:center;
