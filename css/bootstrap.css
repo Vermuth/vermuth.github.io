@@ -5783,3 +5783,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}

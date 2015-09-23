@@ -16,7 +16,7 @@ $(function(){
   menuItems.click(function(e){
     var href = $(this).attr("href"),
         offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-    $('html, body').stop().animate({ 
+    $('html, body').stop().animate({
         scrollTop: offsetTop
     }, 300);
     e.preventDefault();
@@ -35,13 +35,13 @@ $(function(){
      // Get the id of the current element
      cur = cur[cur.length-1];
      var id = cur && cur.length ? cur[0].id : "";
-     
+
      if (lastId !== id) {
          lastId = id;
          // Set/remove active class
          menuItems
            .parent().removeClass("active")
            .end().filter("[href=#"+id+"]").parent().addClass("active");
-     }                   
+     }
   });
 });
