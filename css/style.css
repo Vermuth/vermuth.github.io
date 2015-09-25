@@ -241,23 +241,27 @@ span.menu{
 	vertical-align: middle;
 }
 .grid-icon span.icons1{
-	background-position: -7px 0px;
+	background-position: -79px 0px;
 }
 .grid-icon span.icons2{
-	background-position: -85px 0px;
+	background-position: -430px 0px;
 }
 .grid-icon span.icons3{
-	background-position: -161px 0px;
+	background-position: -563px 0px;
 }
 .grid-icon span.icons4{
-	background-position: -232px 0px;
+	background-position: -624px 0px;
 }
 .grid-icon span.icons5{
-	background-position: -298px 0px;
+	background-position: -498px 0px;
 }
 .grid-icon span.icons6{
-	background-position: -363px -1px;
+	background-position: -689px -1px;
 }
+.grid-icon span.icons7{
+	background-position: -1px -1px;
+}
+
 .grid-icon{
 	float: left;
 	width: 20%;
