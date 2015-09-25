@@ -2,6 +2,6 @@ $(function() {
   VK.Widgets.Group("vk_groups", {
   	mode: 2,
   	width: "auto",
-  	height: "auto",
-  }, 102929699);
+  	height: "500",
+  }, 51047651);
 });
