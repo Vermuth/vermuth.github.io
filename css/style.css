@@ -468,7 +468,7 @@ a.news-btn:hover{
 	padding-top: 1em;
 }
 
-.contact-adress {
+.contact-adress-img {
 	display: inline-block;
 	background: url(../images/sprites.png) no-repeat 56% 0;
 	height: 30px;
@@ -476,7 +476,7 @@ a.news-btn:hover{
 	vertical-align: bottom;
 }
 
-.contact-phone {
+.contact-phone-img {
 	display: inline-block;
 	background: url(../images/sprites.png) no-repeat 24% 0;
 	height: 30px;
