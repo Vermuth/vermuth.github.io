@@ -63,7 +63,7 @@ span.menu{
 	color:#c1061b;
 }
 /*----slider----*/
-.benner{
+.banner{
 	padding-top: 135px;
 }
 .img-slider{
@@ -1570,4 +1570,16 @@ a.home-btn:hover {
 .logo img {
 	width: 150px;
 	height: 80px;
+}
+
+.ads {
+	font-family: Arial;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 600;
+	vertical-align: middle;
+	white-space: pre;
+	color: white;
+	background-color: darkred;
 }
