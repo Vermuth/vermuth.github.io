@@ -1542,9 +1542,7 @@ a.home-btn:hover {
 	font-family: Arial;
 	line-height: 30px;
 	font-size: 20px;
-	/*font-size: medium;*/
-	color: ##0b0b0d;
-	width: 400px;
+	color: #0b0b0d;
 	padding: 10px 20px;
 }
 .logo_info a{
