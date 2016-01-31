@@ -1,4 +1,4 @@
-$(function (d, w, c) {
+(function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
                 w.yaCounter33307835 = new Ya.Metrika({
