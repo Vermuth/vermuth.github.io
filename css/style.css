@@ -1581,3 +1581,7 @@ a.home-btn:hover {
 	color: white;
 	background-color: darkred;
 }
+li img {
+	min-height: 50px;
+	width: 50px;
+}
