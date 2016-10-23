@@ -26,7 +26,7 @@ body input[type="text"],body input[type="submit"],body textarea{
 	border-bottom: 1px solid #EEE;
 	position: fixed;
 	background: #fff;
-	z-index: 9999;
+	z-index: 100;
 	width: 100%;
 }
 .logo{
@@ -154,7 +154,7 @@ span.menu{
 	list-style: none;
 	position: absolute;
 	top: 91%;
-	z-index: 999;
+	z-index: 99;
 	right: 48%;
 	padding: 0;
 	margin: 0;
@@ -227,6 +227,12 @@ span.menu{
 }
 .top-grid{
 	padding:1em 0;
+  cursor: pointer;
+  color: #0b0b0d;
+}
+
+.top-grid:hover {
+  color: #c1061b
 }
 .grid-icon{
 }
@@ -275,7 +281,6 @@ span.menu{
 	padding:0 0 0.4em 0;
 	text-transform:uppercase;
 	font-weight:700;
-	color:#0b0b0d;
 }
 .grid-info p{
 	color:#777;
