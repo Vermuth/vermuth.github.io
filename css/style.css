@@ -7,12 +7,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 /*-- import-fonts --*/
 /*-- /import-fonts --*/
 html, body{
-	font-family: 'Raleway', sans-serif;
-	/*---
-  	font-family: 'Comfortaa', cursive;
-  	---*/
-    font-size: 100%;
-  	 background: #FFf;
+  font-family: 'Comfortaa', cursive;
+  font-size: 100%;
+  background: #FFf;
 }
 body a{
 	transition:0.5s all;
@@ -461,7 +458,7 @@ a.news-btn:hover{
 .contacts-info {
 	float: right;
 	width: 45%;
-	font-family: Arial;
+	// font-family: Arial;
 }
 .contacts-map {
 	float: left;
@@ -470,7 +467,7 @@ a.news-btn:hover{
 
 .contact-adress-img {
 	display: inline-block;
-	background: url(../images/sprites.png) no-repeat 45% 8%;
+	background: url(../images/sprites.png) no-repeat -299px 8%;
 	height: 30px;
 	width: 30px;
 	vertical-align: bottom;
@@ -478,7 +475,7 @@ a.news-btn:hover{
 
 .contact-phone-img {
 	display: inline-block;
-	background: url(../images/sprites.png) no-repeat 14% 8%;
+	background: url(../images/sprites.png) no-repeat 3% 8%;
 	height: 30px;
 	width: 30px;
 	vertical-align: bottom;
@@ -1539,7 +1536,7 @@ a.home-btn:hover {
 .logo_info {
 	float: right;
 	text-align: left;
-	font-family: Arial;
+	// font-family: Arial;
 	line-height: 30px;
 	font-size: 20px;
 	color: #0b0b0d;
