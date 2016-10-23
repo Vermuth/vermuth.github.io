@@ -27,6 +27,7 @@ body input[type="text"],body input[type="submit"],body textarea{
   position: fixed;
   background: #fff;
   z-index: 100;
+  // max-height: 135px;
   width: 100%;
 }
 .logo{
@@ -873,6 +874,7 @@ a.home-btn:hover {
   .grid-info {
     width: 80%;
     margin-top: 6%;
+    padding-left: 5%;
   }
   .news-grids {
     width: 80%;
@@ -984,6 +986,9 @@ a.home-btn:hover {
   }
 }
 @media (max-width:640px){
+  .logo_info {
+    font-size: 90% !important;
+  }
   .contacts-info {
     float: none;
     width: 100%
@@ -1555,9 +1560,8 @@ a.home-btn:hover {
 .logo_info {
   float: right;
   text-align: left;
-  // font-family: Arial;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 110%;
   color: #0b0b0d;
   padding: 10px 20px;
 }
