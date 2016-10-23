@@ -11,6 +11,10 @@ html, body{
   font-size: 100%;
   background: #FFf;
 }
+body.modal-open {
+  overflow: visible;
+}
+
 body a{
   transition:0.5s all;
   -webkit-transition:0.5s all;
